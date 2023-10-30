@@ -52,7 +52,7 @@ export default {
   methods: {
     //鼠标进入的方法
     enterHandler(index) {
-      //修改响应式数据
+      //修改响应式数据xx
       this.currentIndex = index;
       //鼠标进入事件,假如用户的行为过快,会导致项目业务丢失【里面业务有很多，可能出现卡顿现象】。
       //一句话：用户行为过快,浏览器反应不过来,导致业务丢失!!!!
